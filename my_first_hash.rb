@@ -1,3 +1,5 @@
+require 'pry'
+
 def my_hash
   hashish = {"stuff" => "double"}
 end
@@ -11,6 +13,7 @@ def retrieval
 end
 
 def adding
+  binding.pry
   shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
   shipping manifest["muskets"] = 2 
   shipping_manifest["powder"] = 4
