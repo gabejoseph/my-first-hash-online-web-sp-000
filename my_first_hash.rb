@@ -10,7 +10,7 @@ def retrieval
   shipping_manifest["oil paintings"]
 end
 
-def adding
+def adding(shipping_manifest)
   shipping manifest["muskets"] = 2 
   shipping_manifest["powder"] = 4
 end
