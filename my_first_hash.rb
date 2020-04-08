@@ -11,8 +11,6 @@ def retrieval
 end
 
 def adding
-  shipping_manifest["muskets" => 2]
-  muskets = {}
-  gun_powder = {"powder" => 4}
+  shipping manifest["muskets" => 2, "powder" => 4]
   return shipping_manifest
 end
